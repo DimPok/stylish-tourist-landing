@@ -1,0 +1,1 @@
+This is a simple but stylish landing page for a travel agency. It was made in pure HTML, and a little "animated" with CSS and Javascript. Mobile & SEO ready. When using it, you can change links and images, change titles

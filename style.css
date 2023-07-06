@@ -1,0 +1,175 @@
+html,
+body,
+header,
+.view {
+    height: 100%;
+}
+
+video {
+   position: fixed;
+   right: 0;
+   bottom: 0;
+   min-width: 100%;
+   min-height: 100%;
+}
+
+#video::after {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+.navhover:hover {
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8.5px);
+    text-shadow: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+
+.content {
+    padding: 15px;
+}
+
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+
+.sticky + .content {
+    padding-top: 100px;
+}
+
+
+.card {
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8.5px);
+    -webkit-backdrop-filter: blur(8.5px);
+    border-radius: 10px;
+}
+
+
+.hov:hover {
+    background-color:darkorange;
+    color: #ffffff;
+    text-shadow: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+#name {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    outline: none;
+    height: 30px;
+    box-shadow: 0 1px 0 0 #fff;
+    transition: height 1s;
+}
+
+#name:focus {
+    height: 45px;
+    font-size: 15px;
+}
+
+#email {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    outline: none;
+    height: 30px;
+    box-shadow: 0 1px 0 0 #fff;
+    transition: height 1s;
+}
+
+#email:focus {
+    height: 45px;
+    font-size: 15px;
+}
+
+#sub {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    outline: none;
+    height: 30px;
+    box-shadow: 0 1px 0 0 #fff;
+    transition: height 1s;
+}
+
+#sub:focus {
+    height: 45px;
+    font-size: 15px;
+}
+
+
+#msg {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    outline: none;
+    height: 30px;
+    box-shadow: 0 1px 0 0 #fff;
+    transition: height 1s;
+}
+
+#msg:focus {
+    height: 45px;
+    font-size: 15px;
+}
+
+
+.map-container-section {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border-radius: 10px;
+    opacity: 0.6;
+    transition: 1s ease;
+}
+
+
+.map-container-section iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+
+.map-container-section:hover {
+    opacity: 1;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    z-index: 2;
+}
